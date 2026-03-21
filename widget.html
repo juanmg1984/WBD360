@@ -192,7 +192,7 @@ const YEAR      = parseInt(P.get('year')  || '2022');
 const TITLE     = P.get('title')     || '';
 const IND1_LABEL = decodeURIComponent(P.get('ind1label') || IND1);
 const IND2_LABEL = decodeURIComponent(P.get('ind2label') || (IND2 || ''));
-const PROXY     = (P.get('proxy')    || '').replace(/\/$/, '');
+const PROXY     = (P.get('proxy')    || 'https://wbd360.onrender.com').replace(/\/$/, '');
 const THEME     = P.get('theme')     || 'light';
 
 if (THEME === 'dark') document.body.classList.add('dark');

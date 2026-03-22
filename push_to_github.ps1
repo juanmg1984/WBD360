@@ -1,7 +1,7 @@
 # Data360 Embed — Push a GitHub
 # Ejecutá este script en PowerShell desde la carpeta data360-embed
 
-$token = "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"
+$token = 
 $repo  = "https://juanmg1984:$token@github.com/juanmg1984/WBD360.git"
 
 git init
